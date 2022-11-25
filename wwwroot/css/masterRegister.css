@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: sans-serif; /*Tipo de letra*/
+    height: 100vh;
+    Background: #1d1d1d;
+  }
+  
+  .login-box {
+    width: 670px; /* Aqui se mueven lo que es el ancho de la caja*/
+    height: 610px;
+    /*background: #9c9b9b;*/
+    background: #302f33;
+    color: rgb(255, 255, 255); /* Email en color*/
+    
+    /*margin-top: 100px;*/
+    position: absolute;
+    top: 15%;
+    left: 30%;
+
+    border-radius: 5%;
+    box-sizing: border-box;
+    padding: 80px 70px;/* abajo, izquierda*/
+  }
+  
+  /* 1200 * 941*/
+  .imagen {
+    text-align: right;
+    width: 1450px; /* pegado a la izquierda*/
+    height: 0px;
+    top: -10%;
+    right: 0%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 90px 0px;/* abajo, izquierda*/
+  }
+  
+  
+  
+  
+  
+  .login-box h1 {
+    margin: 0;
+    padding: 0 0 40px;
+    text-align: left; /* texto login here centrado*/
+    font-size: 25px;
+  }
+  
+  .login-box label { /* EMAIL Y CONTRASEÑA*/
+    margin: 0;
+    padding-bottom: 13px;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .login-box label2 { /* EMAIL Y CONTRASEÑA*/
+    margin: 0;
+    margin-bottom: 20px;
+    padding-bottom: 13px;
+    font-weight: bold;
+    display: block;
+  }
+  
+  
+  
+  /* Separacion ente 1 box y otro*/
+  .login-box input {
+    width: 100%;
+    margin-bottom: -30px;
+  }
+  
+  /* Placeholder de Email y Contraseña*/
+  .login-box input[type="text"], .login-box input[type="password"] {
+    border: none;
+    border-radius: 10px;
+  
+    color: rgb(159, 160, 161);   
+    background: #111010da;
+
+    /*background: #F7F7F7;
+    color: #000;*/
+    height: 40px;    
+    font-size: 16px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+  }
+  
+  /* ESTO ES DEL BOTON INICIAR SESION*/
+  .login-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #3BEF97;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+  }
+  
+  .span {
+      right: 50%;
+      color: #3BEF97;
+      font-weight: 600;
+      cursor: pointer;
+      align-items: left;
+          text-align: left;
+  }
+  
+  .login-box input[type="submit"]:hover {
+    cursor: pointer;
+    background: #BEF3D9;
+    color: #000;
+  }
+  
+  .login-box a { /* HE OLVIDADO LA CONTRASEÑA.*/
+  
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 50px;
+    color: #3BEF97;
+    margin-left: 160px; /* Esto es para que esten juntos el recuerdame y el olvido de password*/
+    font-weight: bold;
+  }
+  
+
+  /*CopyRight*/
+.Copyright{
+  padding-top: 43%;
+  padding-left: 1%;
+     color: #9C9D9D;
+     font-size: 13px
+}
+
+.underline {
+  margin-top: -24px;
+  text-decoration: underline;
+      color: #9C9D9D;
+      font-size: 10px
+}
+
+
+
+  
+  /* Alumnos*/
+  .h1, em{
+      text-transform: capitalize;
+      font-size: 1.75rem; /*fwefwef*/
+      font-weight: 800;
+      letter-spacing: 1px;
+      font: 100% sans-serif;
+      font-size: 1em;
+      color: #3BEF97;
+      font-weight: bold;
+  
+  }
+  
+  
+  .login-box input[type="checkbox"] { /* HE OLVIDADO LA CONTRASEÑA.*/
+  
+    line-height: 50px;
+    height: 12px;
+    color: #3BEF97;
+    margin-left: -250px; /* Esto es para que esten juntos el recuerdame y el olvido de password*/
+    font-weight: bold;
+  }
+  
+  /* RECUERDAME */  
+  .title2, em2{
+      font-weight: bold;
+      margin-left: -240px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

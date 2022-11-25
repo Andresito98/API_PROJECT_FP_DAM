@@ -1,0 +1,354 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #1d1d1d;
+  
+}
+
+#main-container{
+margin-left: 100px;
+margin-top: 20px; /* alto de la div de arriba*/
+width: 1200px; /* El ancho de la tabla*/
+
+}
+
+#nombresBold1,#nombresBold2,#nombresBold3,#nombresBold4,#nombresBold5,#nombresBold6,#nombresBold7,#nombresBold8,#nombresBold9,#nombresBold10,#nombresBold11{
+font-weight: bold;
+
+}
+
+table{
+background: #747277;
+text-align: left;
+border-collapse: collapse; /* Esto es para los espacios entre celdas*/
+width: 110%; /* con esto se mantiene en el medio*/
+
+border-left: solid 1px #000;
+border-top: solid 1px #000;
+border-right: solid 1px #000;
+border-bottom: solid 1px #000;
+border-color: #C8C9C8;
+
+}
+
+/* Para los DATOS ALMACENADOS*/
+td{
+
+    border-bottom: solid 1px #C8C9C8;
+
+
+    /* border: solid 1px black;*/
+    padding: 20px; /* Esto es para los espacios entre celdas*/
+  
+
+}
+
+/* PARA LAS CABECERAS DE LOS DATOS*/
+th{
+
+    /* border: solid 1px black;*/
+    padding: 20px; /* Esto es para los espacios entre celdas*/
+
+}
+
+
+/* CABECERA*/
+thead{
+    color: #C8C9C8;
+    border-bottom: solid 5px #3300cc; /*color de la barra de la tabla*/
+    /*font: 80% sans-serif;*/
+    /*size: 11px;*/
+    font-family: Raleway;
+    size: 11px;
+    
+}
+
+/* DATOS */
+tr:hover{
+    background-color: #DBDDDC;
+    color:white;
+    
+}
+
+
+/* Es la caja donde esta Open + Alumno*/
+.login-box {
+  float:left;
+  margin-top: -15px;
+  width: 1920px; /* ancho*/
+  height: 50px;
+  background: #1d1d1d;
+  color: #ffffff;
+  
+  
+}
+
+/* ESTO ES PARA LAS ETIQUETAS*/
+.main-container, input[type="submit"] {
+   padding-left: 10px;
+  border: none;
+  outline: none;
+  height: 25px;
+  background: #3BEF97;
+  color: #fff;  
+  font-size: 15px;
+  font-family: Raleway;
+  border-radius: 20px;  
+
+  
+}
+
+
+/* OpenBootcamp */
+.login-box2 h1 {
+  padding-top: 10px;
+  padding-left: 50px;
+  font: 160% sans-serif;
+  color: rgb(255, 255, 255);  
+  font-weight: bold;
+  
+}
+
+
+/* OpenBootcamp */
+.login-box h1 {
+  padding-top: 10px;
+  padding-left: 40px;
+  font-size: 30px;
+  /*font: 185% sans-serif;  */
+  
+}
+
+/* Alumnos*/
+.h1, em{
+    letter-spacing: 1px;
+    font: 100% sans-serif;
+    font-size: 1em;
+    color: #3BEF97;
+    font-weight: bold;
+}
+
+
+.encima-tabla, label, input[type="text"] { /* EMAIL Y CONTRASEÑA*/
+
+  margin-top: 80px;
+  border-radius: 6px;
+  width: 350px;
+  height: 30px;
+  /*padding-top: 50px;*/
+  font-weight: bold;
+  color: rgb(255, 255, 255); /*Esto afecta a todo separar los labels*/
+
+}
+
+.encima-tabla, label[for="username"]{
+margin-left: 100px;
+color: rgb(255, 255, 255); /*Esto afecta a todo separar los labels*/
+font-size: 25px;
+
+
+}
+.encima-tabla, input[type="text"] {
+   margin-left: 30px;
+   background-color: #C8C9C8;
+   padding-left: 20px;
+
+/* CUANDO QUITE COLOR BLANCO DE FONDO QUITAR LOS COMENTARIOS*/
+     border: none;
+     outline: none;
+     
+
+
+}
+
+button{
+  width: 10%;
+  height: 35px;
+  margin-left: 550px;
+  background-color: #C8C9C8;
+  color: rgb(0, 0, 0);
+  padding-left: 5px;
+  
+  font-weight: bold;
+
+  border-radius: 10px;
+  border-color: #b8adad;
+  
+
+}
+
+
+
+/* AQUIIII 180*/
+.login-box2 {
+  margin-top: 100px;
+
+  width: 350px; /* Aqui se mueven lo que es el ancho de la caja*/
+  height: 650px; /* largo */
+  background: #302f33;
+  color: rgb(0, 0, 0); /* Email en color*/
+  bottom: 20%;
+  left: 76%;
+  position: absolute;
+  box-sizing: border-box;
+  /*padding: 80px 70px; abajo, izquierda*/
+  border-radius: 10px;
+  /* border-color: #3BEF97;
+  Background: #1d1d1d;
+  */
+}
+
+.login-box2 input[type="texto"]{
+  width: 80%;
+
+  border: none;
+  border-radius: 10px;
+  background: #F7F7F7;
+  height: 30px;  
+  font-size: 15px;
+  padding-left: 20px;
+  margin-top: 10px; /* separacion de los emails y ciontra*/
+  margin-bottom: 5px;
+  margin-left: 20px;
+
+}
+
+
+.form-inline select[name="etiquetaEspe"]{
+  width: 80%;
+
+  border: none;
+  border-radius: 10px;
+  background-color: #C8C9C8;
+  height: 30px;  
+  font-size: 15px;
+  padding-left: 20px;
+  margin-top: 10px; /* separacion de los emails y ciontra*/
+  margin-bottom: 5px;
+  margin-left: 20px;
+
+}
+
+.main-container2, input[type="submit1"] {
+  width: 31%;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+  height: 25px;
+  background-color: #C8C9C8;
+  font-size: 15px;
+  font-family: Raleway;
+  border-radius: 20px;  
+
+}
+
+.main-container2, input[type="submit2"] {
+  width: 29%;
+  margin-top: 10px;
+  margin-left: 0px;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+  height: 25px;
+  background-color: #C8C9C8;
+  font-size: 15px;
+  font-family: Raleway;
+  border-radius: 20px;  
+
+}
+
+
+
+.main-container2, input[type="submit4"] {
+  width: 29%;
+  margin-top: 10px;
+  margin-left: 20px;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+  height: 25px;
+  background-color: #C8C9C8;
+  font-size: 15px;
+  font-family: Raleway;
+  border-radius: 20px; 
+  margin-bottom: 40px;
+}
+
+
+
+.form-inline  label[for="Pais"]{
+  margin-top: 280px;
+  margin-left: 20px;
+}
+
+.form-inline  label[for="Ciudad"]{
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.form-inline select[name="paises"]{
+  width: 80%;
+
+  border-radius: 10px;
+  background-color: #C8C9C8;
+  height: 30px;
+  font-size: 15px;
+  padding-left: 20px;
+  margin-top: 17px; /* separacion de los emails y ciontra*/
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.form-inline  select[name="ciudades"]{
+  width: 80%;
+
+  border-radius: 10px;
+  background-color: #C8C9C8;
+  height: 30px;
+  font-size: 15px;
+  padding-left: 20px;
+  margin-top: 17px; /* separacion de los emails y ciontra*/
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.form-inline  label[for="presencial"]{
+  margin-top: 30px;
+  margin-left: 20px;
+  
+}
+
+.form-inline  input[type="checkbox"]{
+  width: 4%;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-top: 17px; /* separacion de los emails y ciontra*/
+  margin-left: 30px; 
+  
+}
+
+.form-inline  label[for="presencial2"]{
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 180px;
+  margin-bottom: 80px;
+}
+
+.form-inline  label[for="remoto"]{
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 180px;
+  margin-bottom: 80px;
+}
+
+.form-inline  label[for="presencial3"]{
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.form-inline  label[for="nombreCompleto"]{
+  margin-left: 20px;
+}

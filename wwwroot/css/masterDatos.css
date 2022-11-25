@@ -1,0 +1,440 @@
+body {
+  margin: 0;
+  padding: 0;
+  Background: #1d1d1d;
+  font-family: sans-serif;
+  height: 100vh;
+  
+}
+
+.login-box {
+  margin-top: 10px;
+  width: 550px; /* Aqui se mueven lo que es el ancho de la caja*/
+  height: 760px; /* largo */
+  background: #302f33;
+  color: rgb(255, 255, 255); /* Email en color*/
+  left: 5%;
+  position: absolute;
+  box-sizing: border-box;
+  /*padding: 80px 70px; abajo, izquierda*/
+  border-radius: 10px;
+}
+
+/* 100 * 100*/
+.avatar {
+  margin-top: 30px;
+  margin-left: 30px;
+  border-radius: 10px;
+}
+
+
+
+.login-box label { /* EMAIL Y CONTRASEÑA*/
+  font-weight: bold;
+  display: block;
+}
+
+/* Separacion ente 1 box y otro*/
+.login-box input {
+  width: 30%; /* largo de un input*/
+}
+
+
+
+.login-box label[for="nombreCompleto"]{
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.login-box input[type="texto"] {
+    border-top-color: white;
+    border-bottom-color: white;
+    border-right-color: white;
+    border-left-color: white;
+    border-width: 1.5px;
+    border-radius: 10px;
+    color: white;
+    background: #111010da;
+    width: 85%;
+    height: 30px;
+    font-size: 15px;
+    padding-left: 20px;
+    margin-top: 10px; /* separacion de los emails y ciontra*/
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+
+.login-box label[for="Nº Telefono"]{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.login-box label[for="Email"]{
+  margin-top: -26px;
+  margin-left: 268px;
+}
+.login-box input[type="x"] {
+
+  border-radius: 10px;
+  background: #F7F7F7;
+  height: 30px;
+  font-size: 15px;
+  padding-left: 20px;
+  margin-top: 10px; /* separacion de los emails y ciontra*/
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+
+.login-box label[for="Pais"]{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.login-box input[type="x"] {
+
+  border-radius: 10px;
+  background: #F7F7F7;
+  height: 30px;
+  font-size: 15px;
+  padding-left: 20px;
+  margin-top: 10px; /* separacion de los emails y ciontra*/
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+
+
+.login-box label[for="Traslado"]{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.login-box label[for="Presencialidad"]{
+  margin-top: -26px;
+  margin-left: 268px;
+}
+.login-box input[type="x"] {
+
+  border-radius: 10px;
+  background: #F7F7F7;
+  height: 30px;
+  font-size: 15px;
+  padding-left: 20px;
+  margin-top: 10px; /* separacion de los emails y ciontra*/
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+
+
+.login-box label[for="Documento"]{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.login-box input[type="button"] {
+    border-top-color: white;
+    border-bottom-color: white;
+    border-right-color: white;
+    border-left-color: white;
+    border-width: 1.5px;
+    border-radius: 10px;
+
+    background: #F7F7F7;
+    height: 30px;
+    font-size: 17px;
+    padding-left: 0px;
+    margin-top: 10px; /* separacion de los emails y ciontra*/
+    margin-bottom: 5px;
+    margin-left: 20px;
+    width: 30%;
+    color: #fff;
+    font: bold;
+    background: #111010da;
+}
+.login-box input[type="file"] {
+
+  border-radius: 10px;
+  background: #F7F7F7;
+  height: 30px;
+  font-size: 17px;
+  padding-left: 0px;
+  margin-top: 10px; /* separacion de los emails y ciontra*/
+  margin-bottom: 5px;
+  margin-left: 20px;
+  width: 30%;
+  color: #fff;
+  font: bold;
+  
+  background: #B4B3B1;
+}
+.file{
+  border-radius: 10px;
+}
+
+.login-box input[type="submit"] {
+    border-top-color: white;
+    border-bottom-color: white;
+    border-right-color: white;
+    border-left-color: white;
+    border-width: 1.5px;
+    border-radius: 10px;
+
+    background: #111010da; /*Borrar*/
+    height: 30px;
+    font-size: 15px;
+    padding-left: 0px;
+    margin-top: 10px; /* separacion de los emails y ciontra*/
+    margin-bottom: 5px;
+    margin-left: 10px;
+    width: 20%;
+    font: bolder;
+    color: #fff;
+}
+
+
+.login-box label[for="etiqueta"]{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.form-inline select[name="etiquetaEspe"] {
+    border-top-color: white;
+    border-bottom-color: white;
+    border-right-color: white;
+    border-left-color: white;
+    border-width: 1.5px;
+    border-radius: 10px;
+
+    width: 89%;
+    background: #111010da;
+    height: 30px;
+    font-size: 15px;
+    padding-left: 20px;
+    margin-top: 10px; /* separacion de los emails y ciontra*/
+    margin-bottom: 5px;
+    margin-left: 20px;
+    color: #9c9b9a;
+}
+
+
+
+.encima-tabla input[type="asd"] {
+    border-top-color: white;
+    border-bottom-color: white;
+    border-right-color: white;
+    border-left-color: white;
+    border-width: 1.5px;
+    border-radius: 10px;
+    color: white;
+    width: 89%;
+    background: #111010da;
+    height: 30px;
+    font-size: 15px;
+    padding-left: 20px;
+    margin-top: 10px; /* separacion de los emails y ciontra*/
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+.main-container, input[type="submit1"] {
+
+  width: 23%;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+  height: 25px;
+  background: #3BEF97;
+  color: #fff;  
+  font-size: 15px;
+  font-family: Raleway;
+  border-radius: 20px;  
+
+}
+
+.main-container, input[type="submit2"] {
+  width: 22%;
+  margin-top: 10px;
+  margin-left: 0px;
+  padding-left: 10px;
+ border: none;
+ outline: none;
+ height: 25px;
+ background: #3BEF97;
+ color: #fff;  
+ font-size: 15px;
+ font-family: Raleway;
+ border-radius: 20px;  
+
+}
+
+.main-container, input[type="submit3"] {
+  width: 14%;
+  margin-top: 10px;
+  margin-left: 0px;
+  padding-left: 10px;
+ border: none;
+ outline: none;
+ height: 25px;
+ background: #3BEF97;
+ color: #fff;  
+ font-size: 15px;
+ font-family: Raleway;
+ border-radius: 20px;  
+
+}
+
+.main-container, input[type="submit4"] {
+  width: 17%;
+  margin-top: 10px;
+  margin-left: 0px;
+  padding-left: 10px;
+ border: none;
+ outline: none;
+ height: 25px;
+ background: #3BEF97;
+ color: #fff;  
+ font-size: 15px;
+ font-family: Raleway;
+ border-radius: 20px;  
+
+}
+
+
+
+.form-inline select[name="paises"], select[name="ciudades"]{
+  width: 40%;
+
+  border-radius: 10px;
+  background: #111010da;
+  height: 30px;
+  font-size: 15px;
+  padding-left: 20px;
+  margin-top: 10px; /* separacion de los emails y ciontra*/
+  margin-bottom: 5px;
+  margin-left: 20px;
+  color: #fff;
+}
+.login-box label[for="Ciudad"]{
+  margin-top: -26px;
+  margin-left: 268px;
+}
+
+
+.form-inline select[name="Traslados"], select[name="Presencialidads"]{
+  width: 40%;
+
+  border-radius: 10px;
+  background: #111010da;
+  height: 30px;
+  font-size: 15px;
+  padding-left: 20px;
+  margin-top: 10px; /* separacion de los emails y ciontra*/
+  margin-bottom: 5px;
+  margin-left: 20px;
+  color: #fff;
+}
+.login-box label[for="Ciudad"]{
+  margin-top: -26px;
+  margin-left: 268px;
+}
+
+
+
+
+
+/* Esto es de las cajas, editar*/
+.login-box input[type="text"] {
+    border-top-color: white;
+    border-bottom-color: white;
+    border-right-color: white;
+    border-left-color: white;
+    border-width: 1.5px;
+    border-radius: 10px;
+
+    background: #111010da;
+    height: 30px;
+    width: 200px;
+    font-size: 15px;
+    padding-left: 20px;
+    margin-top: 10px; /* separacion de los emails y ciontra*/
+    margin-bottom: 5px;
+    margin-left: 20px;
+    color: #fff;
+}
+
+
+.login-box input[type="text2"] {
+    border-top-color: white;
+    border-bottom-color: white;
+    border-right-color: white;
+    border-left-color: white;
+    border-width: 1.5px;
+    border-radius: 10px;
+
+    background: #111010da;
+    height: 30px;
+    width: 200px;
+    font-size: 15px;
+    padding-left: 20px;
+    margin-top: 10px; /* separacion de los emails y ciontra*/
+    margin-bottom: 5px;
+    margin-left: 40px;
+    color: #fff;
+}
+
+/* ESTO ES DEL BOTON INICIAR SESION*/
+
+
+.login-box a { /* HE OLVIDADO LA CONTRASEÑA.*/
+
+  text-decoration: none;
+  font-size: 17px;
+  line-height: 50px;
+  color: #3BEF97;
+  margin-left: 160px; /* Esto es para que esten juntos el recuerdame y el olvido de password*/
+  font-weight: bold;
+}
+
+.nombreUsu{
+  margin-left: 155px;
+  margin-top: -100px;
+}
+
+/* RECUERDAME */
+
+
+.login-box p[class="hola"] {
+  margin-left: 200px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.login-box2 p[class="hola"] {
+  margin-left: 40px;
+  margin-top: 35px;
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: -75px;
+}
+
+
+
+iframe{
+  width: 80%;
+  height: 180%;
+
+  margin-top: 5%;
+  margin-left: 35%;
+
+  border-radius: 3%;
+}
+
+
+
+
+
+
+
+
+
